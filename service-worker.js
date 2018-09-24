@@ -31,7 +31,9 @@ const PRECACHE_URLS = [
   'vendor/bootstrap-v4-rtl/dist/js/bootstrap.bundle.min.js',
   'favicon.ico',
   'vendor/bootstrap-v4-rtl/dist/css/bootstrap-rtl.min.css',
-  'https://use.fontawesome.com/releases/v5.0.13/css/all.css'
+  'https://use.fontawesome.com/releases/v5.0.13/css/all.css',
+  'https://use.fontawesome.com/releases/v5.0.13/webfonts/fa-solid-900.woff2',
+  'https://use.fontawesome.com/releases/v5.0.13/webfonts/fa-brands-400.woff2'
 ];
 
 // The install handler takes care of precaching the resources we always need.
