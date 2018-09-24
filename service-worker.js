@@ -13,7 +13,33 @@ var version = 'v1::';
 */
 var offlineFundamentals = [
   '',
-  'css/saudia.css'
+  'css/saudia.css',
+  'fonts/frutiger/frutiger-light/unicode.frutigel.ttf',
+  'fonts/frutiger/Frutiger_Roman.ttf',
+  'fonts/frutiger/FTB.ttf',
+  'icons/british-flag-small.png',
+  'icons/SaudiaLogo.png',
+  'icons/Tags_Plane.png',
+  'img/bg.jpg',
+  'img/Mask_Group_1.jpg',
+  'img/Mask_Group_11.jpg',
+  'img/Mask_Group_12.jpg',
+  'img/Mask_Group_13.jpg',
+  'img/Mask_Group_14.jpg',
+  'img/Mask_Group_15.jpg',
+  'img/Mask_Group_16.jpg',
+  'img/Mask_Group_2.jpg',
+  'img/Mask_Group_23.jpg',
+  'img/Mask_Group_3.jpg',
+  'img/Mask_Group_4.jpg',
+  'img/Mask_Group_9.jpg',
+  'js/global.js',
+  'vendor/bootstrap/css/bootstrap.min.css',
+  'vendor/jquery/jquery.min.js',
+  'vendor/bootstrap-v4-rtl/dist/js/bootstrap.bundle.min.js',
+  'favicon.ico',
+  'vendor/bootstrap-v4-rtl/dist/css/bootstrap-rtl.min.css',
+  'https://use.fontawesome.com/releases/v5.0.13/css/all.css'
 ];
 
 /* The install event fires when the service worker is first installed.
