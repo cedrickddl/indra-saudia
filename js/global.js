@@ -1,5 +1,9 @@
 (function() {
 
+  if (!localStorage.getItem('price')) {
+    localStorage.setItem('price', 99 + '.00 $')
+  }
+
 
   if (navigator.serviceWorker) {
     navigator.serviceWorker.register('/service-worker.js')
