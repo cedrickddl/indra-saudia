@@ -6,7 +6,7 @@
 
 
   if (navigator.serviceWorker) {
-    navigator.serviceWorker.register('/service-worker.js')
+    navigator.serviceWorker.register('service-worker.js')
         .then(function (registration) {
             console.log("ServiceWorker registered");
             var price = localStorage.getItem('price');
