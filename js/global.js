@@ -19,7 +19,7 @@
                     localStorage.setItem('price', price);
                     var price = localStorage.getItem('price');
                     $('.sw-price-1').text(price);
-                }, 3000);
+                }, 60000);
             } else {
                 setAmount();
             }
