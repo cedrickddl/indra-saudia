@@ -23,7 +23,7 @@
     
     document.addEventListener('updateTimer', function(e){
         
-        if(parseInt(e.detail.minutes) > 0) {
+        if(parseInt(e.detail.seconds) > 10) {
             generateAmount();
         }
         
