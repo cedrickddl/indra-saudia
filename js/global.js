@@ -30,7 +30,7 @@
     });
 
     if (navigator.serviceWorker) {
-        navigator.serviceWorker.register('service-worker.js', { scope: '/' })
+        navigator.serviceWorker.register('service-worker.js', { scope: '/indra-saudia/' })
             .then(function (registration) {
                 if (navigator.onLine) {
                         setAmount();
