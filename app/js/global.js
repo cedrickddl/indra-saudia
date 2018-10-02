@@ -30,7 +30,7 @@
     });
 
     if (navigator.serviceWorker) {
-        navigator.serviceWorker.register('service-worker.js', { scope: '/app/' })
+        navigator.serviceWorker.register('service-worker.js', { scope: 'app/' })
             .then(function (registration) {
                 if (navigator.onLine) {
                         setAmount();
