@@ -29,6 +29,7 @@ const PRECACHE_URLS = [
   'app/page/vendor/bootstrap/css/bootstrap.min.css',
   'app/page/vendor/jquery/jquery.min.js',
   'app/page/vendor/bootstrap-v4-rtl/dist/js/bootstrap.bundle.min.js',
+  'app/page/vendor/timer.js',
   'app/page/favicon.ico',
   'app/page/vendor/bootstrap-v4-rtl/dist/css/bootstrap-rtl.min.css',
   'https://use.fontawesome.com/releases/v5.0.13/css/all.css',
