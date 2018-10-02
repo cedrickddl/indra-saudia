@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/cedrickddl/indra-saudia#readme",
   "dependencies": {
-    "live-server-https": "0.0.2"
+    "live-server-https": "0.0.2",
+    "worker-timers": "^4.0.52"
   }
 }
