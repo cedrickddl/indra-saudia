@@ -43,6 +43,9 @@
             }).catch(function (e) {
                 console.log("Failed to register ServiceWorker", e);
             })
+    } else {
+        var price = localStorage.getItem('price');
+        $('.sw-price-1').text(price);
     }
 
 })();
