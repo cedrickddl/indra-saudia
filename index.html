@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=11">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -15,7 +15,7 @@
   <!-- Bootstrap core CSS -->
   <link type="text/css" rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
     crossorigin="anonymous">
-  <link type="text/css" href="vendor/bootstrap-v4-rtl/dist/css/bootstrap-rtl.min.css" rel="stylesheet">
+  <link type="text/css" href="vendor/bootstrap-v4-rtl/dist/css/bootstrap-rtl.min.css" rel="stylesheet"> 
 
   <!-- Custom styles for this template -->
   <link href="css/saudia.css" rel="stylesheet" type="text/css">
@@ -41,7 +41,7 @@
 
   <header class="jumbotron-fluid" id="headerJumbotron">
     <div class="container col-sm-9 " id="titleContainer">
-      <h1 class="display-3 mb-2"><span class="highlight-container">
+      <h1 class="display-3 mb-2"><span class="highlight-container ie-pad">
         <span class="highlight">TRAVEL WITH SAUDIA!</span></span></h1>
       <p class="grid-50"><span class="highlight-container">
         <span class="highlight">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
@@ -100,7 +100,7 @@
   <section id="destination" class="pt-2">
     <div class="container">
       <ul class="row">
-        <li class="col py-4">
+        <li class="col py-4 ie-col">
           <div class="destination">
             <!-- Item Link -->
             <a href="#">
@@ -177,7 +177,7 @@
           </div>
         </li>
 
-        <li class="col py-4">
+        <li class="col py-4 ie-col">
           <div class="destination">
             <a href="#">
               <div class="cbp-hover">
@@ -251,7 +251,7 @@
           </div>
         </li>
 
-        <li class="col py-4">
+        <li class="col py-4 ie-col">
           <div class="destination">
             <a href="#">
               <div class="cbp-hover">
@@ -326,7 +326,7 @@
 
         </li>
 
-        <li class="col py-4">
+        <li class="col py-4 ie-col">
           <div class="destination">
             <a href="#">
               <div class="cbp-hover">
@@ -402,7 +402,7 @@
           </div>
         </li>
 
-        <li class="col py-4">
+        <li class="col py-4 ie-col">
           <div class="destination">
             <a href="#">
               <div class="cbp-hover">
@@ -477,7 +477,7 @@
           </div>
         </li>
 
-        <li class="col py-4">
+        <li class="col py-4 ie-col">
           <div class="destination">
             <a href="#">
               <div class="cbp-hover">
@@ -552,7 +552,7 @@
           </div>
         </li>
 
-        <li class="col py-4">
+        <li class="col py-4 ie-col">
           <div class="destination">
             <a href="#">
               <div class="cbp-hover">
@@ -627,7 +627,7 @@
           </div>
         </li>
 
-        <li class="col py-4">
+        <li class="col py-4 ie-col">
           <div class="destination">
             <a href="#">
               <div class="cbp-hover">
@@ -702,7 +702,7 @@
           </div>
         </li>
 
-        <li class="col py-4">
+        <li class="col py-4 ie-col">
           <div class="destination">
             <a href="#">
               <div class="cbp-hover">
@@ -819,9 +819,16 @@
 
   <!-- Bootstrap core JavaScript -->
   <script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
+  <script>
+      if (navigator.userAgent.match('MSIE 10.0;') !== null || navigator.userAgent.match('Trident') !== null) {
+        $('.ie-col').addClass('col-lg-4 col-md-4 col-sm-12 col-12');
+        $('.ie-pad').addClass('pad-top');
+      }
+  </script>
   <script type="text/javascript" src="vendor/bootstrap-v4-rtl/dist/js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" src="vendor/timer.js"></script>
-  <script type="text/javascript" src="js/global.js"></script>
+  <!-- <script type="text/javascript" src="js/global.js"></script> -->
+ 
 </body>
 
 </html>
