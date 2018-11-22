@@ -4,19 +4,21 @@
 <head>
 
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=11">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
 
   <title>Saudia | Landing Page</title>
 
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
   <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+  <link type="text/css" rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
     crossorigin="anonymous">
-  <link href="vendor/bootstrap-v4-rtl/dist/css/bootstrap-rtl.min.css" rel="stylesheet">
+  <link type="text/css" href="vendor/bootstrap-v4-rtl/dist/css/bootstrap-rtl.min.css" rel="stylesheet"> 
 
   <!-- Custom styles for this template -->
-  <link href="css/saudia.css" rel="stylesheet">
+  <link href="css/saudia-rtl.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -36,19 +38,20 @@
     </div>
   </div>
 
+
   <header class="jumbotron-fluid" id="headerJumbotron">
-      <div class="container col-sm-9 " id="titleContainer">
-        <h1 class="display-3 mb-2"><span class="highlight-container">
-          <span class="highlight">TRAVEL WITH SAUDIA!</span></span></h1>
-        <p class="grid-50"><span class="highlight-container">
-          <span class="highlight">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-            ut labore et dolore magna aliqua.</span></span></p>
-      </div>
-    </header>
+    <div class="container col-sm-9 " id="titleContainer">
+      <h1 class="display-3 mb-2"><span class="highlight-container ie-pad">
+        <span class="highlight">TRAVEL WITH SAUDIA!</span></span></h1>
+      <p class="grid-50"><span class="highlight-container">
+        <span class="highlight">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+          ut labore et dolore magna aliqua.</span></span></p>
+    </div>
+  </header>
 
 
   <!-- Content section -->
-  <section class="pt-4">
+  <section>
     <div class="container">
       <ul class="breadcrumb">
         <li class="breadcrumb-item">
@@ -96,9 +99,10 @@
   <!-- Content section -->
   <section id="destination" class="pt-2">
     <div class="container">
-      <ul class="row pl-0">
-        <li class="col py-4">
+      <ul class="row">
+        <li class="col py-4 ie-col">
           <div class="destination">
+            <!-- Item Link -->
             <a href="#">
               <div class="cbp-hover">
                 <div class="cbp-caption">
@@ -117,7 +121,6 @@
                       </p>
                       <p>Travel to...</p>
                     </div>
-
                   </div>
                 </div>
 
@@ -137,30 +140,31 @@
                         <p class="text-bold text-13">
                           Starting from:
                         </p>
-                        <p class="text-bold text-21 m-top-n-10">
-                          300.00 $
+                        <p class="text-bold text-21 m-top-n-10 sw-price-1">
+                          
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
+
               </div>
             </a>
 
             <div class="dest-description">
-              <div class="p-3">
-                <p class="text-right text-15">
+              <div class="p-3 ">
+                <p class="text-left text-15">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique urna sit amet nibh tempor varius. Integer aliquet,
                   urna quis luctus accumsan.
                 </p>
                 <hr>
                 <p class="text-17 text-blue">
-                  <span class="float-right">
+                  <span class="float-left">
                     <a href="#">Read More
                       <span class="sr-only">Madrid to Destination A</span>
                     </a>
                   </span>
-                  <span class="float-left">
+                  <span class="float-right">
                     <a href="#">
                       <i aria-hidden="true" class="fa fa-share-alt"></i> Share
                       <span class="sr-only">Share Madrid to Destination A</span>
@@ -173,29 +177,28 @@
           </div>
         </li>
 
-        <li class="col py-4">
+        <li class="col py-4 ie-col">
           <div class="destination">
             <a href="#">
               <div class="cbp-hover">
                 <div class="cbp-caption">
                   <div class="cbp-caption-defaultWrap">
                     <div class="dest dest2-bg"></div>
-                      <div class="destination-header-overlay">
-                        <div class="destination-p">
-                          <p class="text-white text-bold text-16 pt-2">Madrid to Destination B</p>
-                          <p class="text-white text-14">05/18/2018 to 07/18/2018</p>
-                        </div>
+                    <div class="destination-header-overlay">
+                      <div class="destination-p">
+                        <p class="text-white text-bold text-16 pt-2">Madrid to Destination B</p>
+                        <p class="text-white text-14">05/18/2018 to 07/18/2018</p>
                       </div>
-                      <div class="item_icon">
-                        <!-- Icon -->
-                        <p>
-                          <i class="fa fa-plane fa-rotate-45"></i>
-                        </p>
-                        <p>Travel to...</p>
-                      </div>
+                    </div>
+                    <div class="item_icon">
+                      <!-- Icon -->
+                      <p>
+                        <i class="fa fa-plane fa-rotate-45"></i>
+                      </p>
+                      <p>Travel to...</p>
+                    </div>
                   </div>
                 </div>
-
                 <div class="cbp-caption-activeWrap">
                   <div class="destination-header p-2">
                     <div class="row text-white p-2">
@@ -224,18 +227,18 @@
 
             <div class="dest-description">
               <div class="p-3">
-                <p class="text-right text-15">
+                <p class="text-left text-15">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique urna sit amet nibh tempor varius. Integer aliquet,
                   urna quis luctus accumsan.
                 </p>
                 <hr>
                 <p class="text-17 text-blue">
-                  <span class="float-right">
+                  <span class="float-left">
                     <a href="#">Read More
                       <span class="sr-only">Madrid to Destination B</span>
                     </a>
                   </span>
-                  <span class="float-left">
+                  <span class="float-right">
                     <a href="#">
                       <i aria-hidden="true" class="fa fa-share-alt"></i> Share
                       <span class="sr-only">Share Madrid to Destination B</span>
@@ -248,7 +251,7 @@
           </div>
         </li>
 
-        <li class="col py-4">
+        <li class="col py-4 ie-col">
           <div class="destination">
             <a href="#">
               <div class="cbp-hover">
@@ -268,7 +271,6 @@
                       </p>
                       <p>Travel to...</p>
                     </div>
-
                   </div>
                 </div>
 
@@ -300,18 +302,18 @@
 
             <div class="dest-description">
               <div class="p-3">
-                <p class="text-right text-15">
+                <p class="text-left text-15">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique urna sit amet nibh tempor varius. Integer aliquet,
                   urna quis luctus accumsan.
                 </p>
                 <hr>
                 <p class="text-17 text-blue">
-                  <span class="float-right">
+                  <span class="float-left">
                     <a href="#">Read More
                       <span class="sr-only">Madrid to Destination C</span>
                     </a>
                   </span>
-                  <span class="float-left">
+                  <span class="float-right">
                     <a href="#">
                       <i aria-hidden="true" class="fa fa-share-alt"></i> Share
                       <span class="sr-only">Share Madrid to Destination C</span>
@@ -320,11 +322,11 @@
                 </p>
               </div>
             </div>
-
           </div>
+
         </li>
 
-        <li class="col py-4">
+        <li class="col py-4 ie-col">
           <div class="destination">
             <a href="#">
               <div class="cbp-hover">
@@ -344,9 +346,9 @@
                       </p>
                       <p>Travel to...</p>
                     </div>
-
                   </div>
                 </div>
+
 
                 <div class="cbp-caption-activeWrap">
                   <div class="destination-header p-2">
@@ -376,18 +378,18 @@
 
             <div class="dest-description">
               <div class="p-3">
-                <p class="text-right text-15">
+                <p class="text-left text-15">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique urna sit amet nibh tempor varius. Integer aliquet,
                   urna quis luctus accumsan.
                 </p>
                 <hr>
                 <p class="text-17 text-blue">
-                  <span class="float-right">
+                  <span class="float-left">
                     <a href="#">Read More
                       <span class="sr-only">Madrid to Destination D</span>
                     </a>
                   </span>
-                  <span class="float-left">
+                  <span class="float-right">
                     <a href="#">
                       <i aria-hidden="true" class="fa fa-share-alt"></i> Share
                       <span class="sr-only">Share Madrid to Destination D</span>
@@ -400,7 +402,7 @@
           </div>
         </li>
 
-        <li class="col py-4">
+        <li class="col py-4 ie-col">
           <div class="destination">
             <a href="#">
               <div class="cbp-hover">
@@ -420,7 +422,6 @@
                       </p>
                       <p>Travel to...</p>
                     </div>
-
                   </div>
                 </div>
 
@@ -452,18 +453,18 @@
 
             <div class="dest-description">
               <div class="p-3">
-                <p class="text-right text-15">
+                <p class="text-left text-15">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique urna sit amet nibh tempor varius. Integer aliquet,
                   urna quis luctus accumsan.
                 </p>
                 <hr>
                 <p class="text-17 text-blue">
-                  <span class="float-right">
+                  <span class="float-left">
                     <a href="#">Read More
                       <span class="sr-only">Madrid to Destination E</span>
                     </a>
                   </span>
-                  <span class="float-left">
+                  <span class="float-right">
                     <a href="#">
                       <i aria-hidden="true" class="fa fa-share-alt"></i> Share
                       <span class="sr-only">Share Madrid to Destination E</span>
@@ -476,7 +477,7 @@
           </div>
         </li>
 
-        <li class="col py-4">
+        <li class="col py-4 ie-col">
           <div class="destination">
             <a href="#">
               <div class="cbp-hover">
@@ -496,9 +497,9 @@
                       </p>
                       <p>Travel to...</p>
                     </div>
-
                   </div>
                 </div>
+
                 <div class="cbp-caption-activeWrap">
                   <div class="destination-header p-2">
                     <div class="row text-white p-2">
@@ -527,18 +528,18 @@
 
             <div class="dest-description">
               <div class="p-3">
-                <p class="text-right text-15">
+                <p class="text-left text-15">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique urna sit amet nibh tempor varius. Integer aliquet,
                   urna quis luctus accumsan.
                 </p>
                 <hr>
                 <p class="text-17 text-blue">
-                  <span class="float-right">
+                  <span class="float-left">
                     <a href="#">Read More
                       <span class="sr-only">Madrid to Destination F</span>
                     </a>
                   </span>
-                  <span class="float-left">
+                  <span class="float-right">
                     <a href="#">
                       <i aria-hidden="true" class="fa fa-share-alt"></i> Share
                       <span class="sr-only">Share Madrid to Destination F</span>
@@ -551,7 +552,7 @@
           </div>
         </li>
 
-        <li class="col py-4">
+        <li class="col py-4 ie-col">
           <div class="destination">
             <a href="#">
               <div class="cbp-hover">
@@ -571,9 +572,9 @@
                       </p>
                       <p>Travel to...</p>
                     </div>
-
                   </div>
                 </div>
+
                 <div class="cbp-caption-activeWrap">
                   <div class="destination-header p-2">
                     <div class="row text-white p-2">
@@ -602,18 +603,18 @@
 
             <div class="dest-description">
               <div class="p-3">
-                <p class="text-right text-15">
+                <p class="text-left text-15">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique urna sit amet nibh tempor varius. Integer aliquet,
                   urna quis luctus accumsan.
                 </p>
                 <hr>
                 <p class="text-17 text-blue">
-                  <span class="float-right">
+                  <span class="float-left">
                     <a href="#">Read More
                       <span class="sr-only">Madrid to Destination G</span>
                     </a>
                   </span>
-                  <span class="float-left">
+                  <span class="float-right">
                     <a href="#">
                       <i aria-hidden="true" class="fa fa-share-alt"></i> Share
                       <span class="sr-only">Share Madrid to Destination G</span>
@@ -626,7 +627,7 @@
           </div>
         </li>
 
-        <li class="col py-4">
+        <li class="col py-4 ie-col">
           <div class="destination">
             <a href="#">
               <div class="cbp-hover">
@@ -646,9 +647,9 @@
                       </p>
                       <p>Travel to...</p>
                     </div>
-
                   </div>
                 </div>
+
                 <div class="cbp-caption-activeWrap">
                   <div class="destination-header p-2">
                     <div class="row text-white p-2">
@@ -677,18 +678,18 @@
 
             <div class="dest-description">
               <div class="p-3">
-                <p class="text-right text-15">
+                <p class="text-left text-15">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique urna sit amet nibh tempor varius. Integer aliquet,
                   urna quis luctus accumsan.
                 </p>
                 <hr>
                 <p class="text-17 text-blue">
-                  <span class="float-right">
+                  <span class="float-left">
                     <a href="#">Read More
                       <span class="sr-only">Madrid to Destination H</span>
                     </a>
                   </span>
-                  <span class="float-left">
+                  <span class="float-right">
                     <a href="#">
                       <i aria-hidden="true" class="fa fa-share-alt"></i> Share
                       <span class="sr-only">Share Madrid to Destination H</span>
@@ -701,12 +702,10 @@
           </div>
         </li>
 
-        <li class="col py-4">
+        <li class="col py-4 ie-col">
           <div class="destination">
-
             <a href="#">
               <div class="cbp-hover">
-
                 <div class="cbp-caption">
                   <div class="cbp-caption-defaultWrap">
                     <div class="dest dest9-bg"></div>
@@ -723,9 +722,9 @@
                       </p>
                       <p>Travel to...</p>
                     </div>
-
                   </div>
                 </div>
+
                 <div class="cbp-caption-activeWrap">
                   <div class="destination-header p-2">
                     <div class="row text-white p-2">
@@ -749,23 +748,23 @@
                     </div>
                   </div>
                 </div>
-
               </div>
             </a>
+
             <div class="dest-description">
               <div class="p-3">
-                <p class="text-right text-15">
+                <p class="text-left text-15">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique urna sit amet nibh tempor varius. Integer aliquet,
                   urna quis luctus accumsan.
                 </p>
                 <hr>
                 <p class="text-17 text-blue">
-                  <span class="float-right">
+                  <span class="float-left">
                     <a href="#">Read More
                       <span class="sr-only">Madrid to Destination I</span>
                     </a>
                   </span>
-                  <span class="float-left">
+                  <span class="float-right">
                     <a href="#">
                       <i aria-hidden="true" class="fa fa-share-alt"></i> Share
                       <span class="sr-only">Share Madrid to Destination I</span>
@@ -784,19 +783,32 @@
   <footer>
     <div class="container">
       <p class="text-bold text-white px-3">FOLLOW US</p>
-      <ul class="social-list">
+      <ul class="social-list ml-1">
         <li class="px-3">
-          <a href="#" class="icon-button facebook"><i class="fab fa-facebook"></i><span class="sr-only">Go to Facebook</span></a>
+          <a href="#" class="icon-button facebook">
+            <i class="fab fa-facebook"></i>
+            <span class="sr-only">Go to Facebook</span>
+          </a>
         </li>
         <li class="px-3">
-          <a href="#" class="icon-button twitter"><i class="fab fa-twitter"></i><span class="sr-only">Go to Twitter</span></a>
+          <a href="#" class="icon-button twitter">
+            <i class="fab fa-twitter"></i>
+            <span class="sr-only">Go to Twitter</span>
+          </a>
         </li>
         <li class="px-3">
-          <a href="#" class="icon-button instagram"><i class="fab fa-instagram"></i><span class="sr-only">Go to Instagram</span></a>
+          <a href="#" class="icon-button instagram">
+            <i class="fab fa-instagram"></i>
+            <span class="sr-only">Go to Instagram</span>
+          </a>
         </li>
         <li class="px-3">
-          <a href="#" class="icon-button linkedin"><i class="fab fa-linkedin"></i><span class="sr-only">Go to Linkedin</span></a>
+          <a href="#" class="icon-button linkedin">
+            <i class="fab fa-linkedin"></i>
+            <span class="sr-only">Go to Linkedin</span>
+          </a>
         </li>
+
       </ul>
       <p class="text-15 text-white px-3 pt-4">
         <a href="#" class="text-white">Legal Disclaimer</a> |
@@ -806,15 +818,21 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
   <script>
       if (navigator.userAgent.match('MSIE 10.0;') !== null || navigator.userAgent.match('Trident') !== null) {
         $('.ie-col').addClass('col-lg-4 col-md-4 col-sm-12 col-12');
         $('.ie-pad').addClass('pad-top');
+        $('.text-bold.text-brown').removeClass('text-bold');
       }
-  </script>
-  <script src="vendor/bootstrap-v4-rtl/dist/js/bootstrap.bundle.min.js"></script>
 
+      document.getElementsByClassName('sw-price-1')[0].innerHTML ='99.00 $';
+
+  </script>
+  <script type="text/javascript" src="vendor/bootstrap-v4-rtl/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="vendor/timer.js"></script>
+  <script type="text/javascript" src="js/global.js"></script>
+ 
 </body>
 
 </html>
