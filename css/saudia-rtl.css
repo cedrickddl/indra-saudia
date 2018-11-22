@@ -926,6 +926,15 @@
     height: auto;
     position: relative;
   }
-  
+
+  .social-div{
+    padding-inline-start: 0px;
+  }
+
+  .tag-div{
+    padding-inline-start: 0px;
+    text-align: right;
+  }
+
   
   
