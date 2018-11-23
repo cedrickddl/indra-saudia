@@ -927,4 +927,19 @@ Additional adjustments
   position: relative;
 }
 
+.table-div{
+  padding: 0 40px 0 40px;
+}
+
+.table-responsive-md{
+  overflow: auto;
+}
+
+.destination-div{
+  padding-inline-start: 0px;
+}
+
+.full-width{
+  width: 93% !important;
+}
 
