@@ -951,3 +951,7 @@
   .full-width{
     width: 93% !important;
   }
+  
+  .text-left {
+    text-align: right!important;
+  }
