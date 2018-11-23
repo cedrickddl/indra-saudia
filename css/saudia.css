@@ -943,3 +943,10 @@ Additional adjustments
   width: 93% !important;
 }
 
+.saudia-logo{
+  display:  table-cell;
+}
+
+.vertical-center{
+  margin-top: 20%;
+}

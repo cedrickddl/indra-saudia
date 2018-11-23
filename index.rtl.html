@@ -29,11 +29,11 @@
     <div class="container">
       <a class="navbar-brand" href="#">
         <h1 class="site-logo">
-          <img alt="saudia logo" src="icons/SaudiaLogo.png">
+          <img alt="saudia logo" class="saudia-logo" src="icons/SaudiaLogo.png">
         </h1>
       </a>
       <div class="form-inline my-2 my-lg-0">
-        <img alt="site language" src="icons/british-flag-small.png" class="english-flag mr-2">English
+        <img alt="site language" src="icons/british-flag-small.png" class="english-flag mr-2"><div class="english-text">English</div>
       </div>
     </div>
   </div>
@@ -824,6 +824,7 @@
         $('.ie-col').addClass('col-lg-4 col-md-4 col-sm-12 col-12');
         $('.ie-pad').addClass('pad-top');
         $('.text-bold.text-brown').removeClass('text-bold');
+        $('.english-text').addClass('vertical-center');
       }
 
       document.getElementsByClassName('sw-price-1')[0].innerHTML ='99.00 $';

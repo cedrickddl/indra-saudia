@@ -955,3 +955,11 @@
   .text-left {
     text-align: right!important;
   }
+
+  .saudia-logo{
+    display:  table-cell;
+  }
+
+  .vertical-center{
+    margin-top: 20%;
+  }
