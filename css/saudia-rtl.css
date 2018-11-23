@@ -948,3 +948,6 @@
     padding-inline-start: 0px;
   }
   
+  .full-width{
+    width: 93% !important;
+  }

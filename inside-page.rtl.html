@@ -38,14 +38,14 @@
     </div>
 
     <header class="jumbotron-fluid" id="headerJumbotron">
-            <div class="container col-sm-9 " id="titleContainer">
-              <h1 class="display-3 mb-2"><span class="highlight-container">
-                <span class="highlight">TRAVEL WITH SAUDIA!</span></span></h1>
-              <p class="grid-50"><span class="highlight-container">
-                <span class="highlight">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                  ut labore et dolore magna aliqua.</span></span></p>
-            </div>
-     </header>
+        <div class="container col-sm-9 " id="titleContainer">
+          <h1 class="display-3 mb-2"><span class="highlight-container ie-pad">
+            <span class="highlight">TRAVEL WITH SAUDIA!</span></span></h1>
+          <p class="grid-50"><span class="highlight-container">
+            <span class="highlight">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+              ut labore et dolore magna aliqua.</span></span></p>
+        </div>
+      </header>
     
 
     <!-- Content section -->
@@ -326,6 +326,18 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap-v4-rtl/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        if (navigator.userAgent.match('MSIE 10.0;') !== null || navigator.userAgent.match('Trident') !== null) {
+          $('.ie-col').addClass('col-lg-4 col-md-4 col-sm-12 col-12');
+          $('.ie-pad').addClass('pad-top');
+          $('.text-bold.text-brown').removeClass('text-bold');
+          $('.form-inline').addClass('full-width');
+        }
+  
+        // document.getElementsByClassName('sw-price-1')[0].innerHTML ='99.00 $';
+  
+    </script>
 
 </body>
 
