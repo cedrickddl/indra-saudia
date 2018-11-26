@@ -388,7 +388,7 @@
   footer {
     height: 100%;
     padding: 2.5em 0;
-    background: #527791;
+    background: #a4a4a4;
   }
   
   .footer a {
@@ -836,6 +836,10 @@
     .display-3 {
       font-size: 2rem;
     }
+
+    .hidden-xs {
+      display: none;
+    }
   }
   
   /***********************************
@@ -962,4 +966,22 @@
 
   .vertical-center{
     margin-top: 20%;
+  }
+
+  hr.hr1 {
+    margin-left: 880px;
+        margin-top: 20px;
+        width: 20%;
+        border-top: solid 1px white;
+  }
+  
+  hr.hr2 {
+    margin-left: 880px;
+        margin-top: 25px;
+        width: 63%;
+        border-top: solid 1px white;
+  }
+
+  footer .float-right {
+    float: left !important;
   }
